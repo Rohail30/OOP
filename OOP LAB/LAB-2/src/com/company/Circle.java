@@ -9,13 +9,14 @@ public class Circle {
         this.radius = 1.2;
         this.color = "Red";
     }
-
+    
+    //Parameterized Constructor
     public Circle(double r) {
         this.radius = r;
         this.color = "Blue";
     }
 
-    //Parameterized Constructor
+   
     public double getRadius() {
         return radius;
     }
